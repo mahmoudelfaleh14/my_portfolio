@@ -384,7 +384,7 @@ img {
     position: absolute;
     inset: -2%;
     z-index: -3;
-    background-image: url("assets/punisher-hero.png");
+    background-image: url("assets/punisher-hero.webp");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -854,7 +854,7 @@ img {
             rgba(3, 3, 3, .91),
             rgba(3, 3, 3, .95)
         ),
-        url("assets/punisher-hero.png");
+        url("assets/punisher-hero.webp");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1025,34 +1025,34 @@ img {
 }
 
 .flutter-image {
-    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("assets/Flutter.png");
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("assets/Flutter.webp");
     background-size: cover;
 }
 
 .dart-image {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("assets/Dart.png");
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("assets/Dart.webp");
     background-size: cover;
     background-position: 70%;
 }
 
 .firebase-image {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("assets/firebase.png");
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("assets/firebase.webp");
     background-size: cover;
     background-position: 20%;
 }
 
 .ui-image {
-    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("assets/UI\ UX.png");
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("assets/UI\ UX.webp");
     background-size: cover;
 }
 
 .api-image {
-    background: linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url("assets/APIs.png");
+    background: linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url("assets/APIs.webp");
     background-size: cover;
 }
 
 .tools-image {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("assets/Tools.png");
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("assets/Tools.webp");
     background-size: cover;
 }
 
@@ -1746,7 +1746,7 @@ img {
             rgba(125, 0, 0, .65),
             rgba(125, 0, 0, .65)
         ),
-        url("assets/punisher-hero.png");
+        url("assets/punisher-hero.webp");
     background-size: cover;
     background-position: center;
     border-top: 1px solid #333;
@@ -1802,7 +1802,7 @@ img {
             rgba(0, 0, 0, .90),
             rgba(0, 0, 0, .93)
         ),
-        url("assets/punisher-hero.png");
+        url("assets/punisher-hero.webp");
     background-size: cover;
     background-position: center;
     filter: grayscale(.4);
@@ -1966,6 +1966,10 @@ footer {
 
     .arsenal-grid {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .tool-image {
+        height: 200px;
     }
 
     .training-section {
@@ -2367,6 +2371,10 @@ footer {
 
     .arsenal-grid {
         grid-template-columns: 1fr;
+    }
+
+    .tool-image {
+        height: 260px;
     }
 
     .projects-section {
